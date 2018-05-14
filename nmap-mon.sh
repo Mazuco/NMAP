@@ -5,7 +5,7 @@
 #Modificado por Vitor Mazuco
 
 #
-#CONFIGURATION
+#Configuração
 #
 NETWORK="SEUDOMINIO.COM"
 ADMIN=SEU@EMAIL.COM
