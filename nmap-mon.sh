@@ -2,7 +2,7 @@
 #nmap-mon.sh
 #Uma Shell para enviar e-mail ao admin quando são detectadas mudanças em uma rede usando Nmap e Ndiff.
 #Lembra-se de fazer os ajustes
-#Modificado por Vitor Mazuco
+#Criado por Paulino Calderon e Modificado por Vitor Mazuco
 
 #
 #Configuração
@@ -14,7 +14,7 @@ BASE_PATH=/usr/local/share/nmap-mon/
 BIN_PATH=/usr/local/bin/
 BASE_FILE=base.xml
 NDIFF_FILE=ndiff.log
-NEW_RESULTS_FILE=newscanresults.xml
+NEW_RESULTS_FILE=resultados.xml
 BASE_RESULTS="$BASE_PATH$BASE_FILE"
 NEW_RESULTS="$BASE_PATH$NEW_RESULTS_FILE"
 NDIFF_RESULTS="$BASE_PATH$NDIFF_FILE"
