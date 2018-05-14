@@ -26,9 +26,9 @@ then
   ${BIN_PATH}ndiff $BASE_RESULTS $NEW_RESULTS > $NDIFF_RESULTS
   if [ $(cat $NDIFF_RESULTS | wc -l) -gt 0 ]
   then
-    echo "Network changes detected in $NETWORK"
+    echo "Alterações de rede detectadas em $NETWORK"
     cat $NDIFF_RESULTS
-    echo "Alerting admin $ADMIN"
-    mail -s "Network changes detected in $NETWORK" $ADMIN < $NDIFF_RESULTS
+    echo "Alertando o admin $ADMIN"
+    mail -s "Alterações de rede detectadas em $NETWORK" $ADMIN < $NDIFF_RESULTS
   fi 
 fi
